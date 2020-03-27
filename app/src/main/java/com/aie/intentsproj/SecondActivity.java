@@ -50,7 +50,8 @@ public class SecondActivity extends AppCompatActivity {
 
                 int sum = num_1 + num_2;
 
-                result.setText(Integer.toString(sum));
+                result.setText(num_1 + " + " + num_2 + " = " + sum);
+
             }
         });
 
@@ -62,7 +63,7 @@ public class SecondActivity extends AppCompatActivity {
 
                 int deduct = num_1 - num_2;
 
-                result.setText(Integer.toString(deduct));
+                result.setText(num_1 + " - " + num_2 + " = " + deduct);
             }
         });
 
@@ -74,7 +75,7 @@ public class SecondActivity extends AppCompatActivity {
 
                 int multiply = num_1 * num_2;
 
-                result.setText(Integer.toString(multiply));
+                result.setText(num_1 + " * " + num_2 + " = " + multiply);
             }
         });
 
@@ -86,7 +87,7 @@ public class SecondActivity extends AppCompatActivity {
 
                 int devide = num_1 / num_2;
 
-                result.setText(Integer.toString(devide));
+                result.setText(num_1 + " / " + num_2 + " = " + devide);
             }
         });
 
